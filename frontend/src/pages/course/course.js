@@ -24,6 +24,7 @@ function Course() {
   });
   const navigate = useNavigate();
 
+  
   useEffect(() => {
     axios.get(`http://localhost:3001/courses/${courseId}`)
       .then(response => {
