@@ -1,0 +1,293 @@
+.list-user-title {
+  display: flex;
+  position: absolute;
+  left: 6.39%;
+  top: 17%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.list-users li {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  width: 700%;
+}
+
+.list-users img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.list-users p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  width: 10%;
+}
+
+.list-users span {
+  width: 38%;
+}
+
+.list-users {
+  list-style: none;
+    padding: 0;
+    position: absolute;
+    left: 6.39%;
+    top: 30%;
+    width: 12%;
+}
+
+.edit-icon {
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  position: absolute;
+  left: 90%;
+}
+
+.trash-icon {
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  position: absolute;
+  left: 95%
+}
+
+.edit-user-form-popup {
+  box-sizing: border-box;
+  position: absolute;
+  width: 50.76%;
+  height: 80.44%;
+  left: 25.97%;
+  top: 13.78%;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 7px;
+}
+
+.edit-user-form-popup p:nth-of-type(1) {
+  position: fixed;
+  left: 29.38%;
+  top: 18.11%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.edit-user-form-popup p:nth-of-type(2) {
+  position: fixed;
+  left: 29.38%;
+  top: 31.11%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.edit-user-form-popup p:nth-of-type(3) {
+  position: fixed;
+  left: 29.38%;
+  top: 44.11%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.edit-user-form-popup p:nth-of-type(4) {
+  position: fixed;
+  left: 29.38%;
+  top: 57.11%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+
+.edit-user-form-popup input:nth-of-type(1) {
+  position: fixed;
+  background: transparent;
+  border: 1px solid #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  top: 25.78%;
+  left: 29.38%;
+  width: 43.96%;
+  height: 5.44%;
+}
+
+.edit-user-form-popup input:nth-of-type(2) {
+  position: fixed;
+  background: transparent;
+  border: 1px solid #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  top: 38.5%;
+  left: 29.38%;
+  width: 43.96%;
+  height: 5.44%;
+}
+
+.edit-user-form-popup input:nth-of-type(3) {
+  position: fixed;
+  background: transparent;
+  border: 1px solid #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  top: 51.5%;
+  left: 29.38%;
+  width: 43.96%;
+  height: 5.44%;
+}
+
+.edit-user-form-popup input:nth-of-type(4) {
+  position: fixed;
+  background: transparent;
+  border: 1px solid #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  top: 64.5%;
+  left: 29.38%;
+  width: 43.96%;
+  height: 5.44%;
+}
+
+.edit-user-form-popup input[type='file'] {
+  position: fixed;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.fileLabel {
+  box-sizing: border-box;
+  position: absolute;
+  width: 80%;
+  height: 5%;
+  left: 10%;
+  top: 75%;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.edit-user-form-popup button {
+  position: absolute;
+  left: 35%;
+  top: 85%;
+  width: 30%;
+  height: 10%;
+  border-radius: 20px;
+  border-color: black;
+  background-color: black;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.arrow-right {
+  position: fixed;
+  left: 90%;
+  top: 20%;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.close-user-crud {
+  position: absolute;
+  left: 95%;
+  top: 5%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 430px) and (max-height: 932px) {
+  .list-users li {
+    width: 200%;
+  }
+
+  .edit-user-form-popup {
+    width: 80%;
+    left: 10%;
+  }
+
+  .edit-user-form-popup p:nth-of-type(1) {
+    left: 15%;
+  }
+
+  .edit-user-form-popup p:nth-of-type(2) {
+    left: 15%;
+  }
+
+  .edit-user-form-popup p:nth-of-type(3) {
+    left: 15%;
+  }
+
+  .edit-user-form-popup p:nth-of-type(4) {
+    left: 15%;
+  }
+
+  .edit-user-form-popup input:nth-of-type(1) {
+    left: 15%;
+    width: 70%;
+  }
+
+  .edit-user-form-popup input:nth-of-type(2) {
+    left: 15%;
+    width: 70%;
+  }
+
+  .edit-user-form-popup input:nth-of-type(3) {
+    left: 15%;
+    width: 70%;
+  }
+
+  .edit-user-form-popup input:nth-of-type(4) {
+    left: 15%;
+    width: 70%;
+  }
+
+  .fileLabel {
+    width: 80%;
+  }
+
+  .edit-user-form-popup button {
+    width: 40%;
+    left: 30%;
+  }
+
+  .close-user-crud {
+    top: 3%;
+    left: 90%;
+    font-size: 20px;
+  }
+}

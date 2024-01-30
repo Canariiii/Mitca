@@ -1,0 +1,17 @@
+{
+    "name": "mitca",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "shortid": "snocMPp0j",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1705345548090
+    },
+    "modificationDate": {
+        "$$date": 1705348873600
+    },
+    "_id": "kXS7plQNVRMOiDAC",
+    "$entitySet": "templates"
+}

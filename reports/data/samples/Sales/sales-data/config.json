@@ -1,0 +1,12 @@
+{
+    "shortid": "B1lSTrt6NB",
+    "name": "sales-data",
+    "creationDate": {
+        "$$date": 1705345479145
+    },
+    "modificationDate": {
+        "$$date": 1705345479145
+    },
+    "_id": "f7lvuvzV9BDYlzuD",
+    "$entitySet": "data"
+}

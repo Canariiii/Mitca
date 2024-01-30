@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js'></script>
+  </head>
+  <body>
+    {{#each users}}
+        <!-- add hidden information to the page, which is resolved in OrdersHeader template
+             during the pdf merge. See the docs about pdf utils extension for more details. -->
+        {{{pdfCreatePagesGroup user}}}
+        <canvas id='orders{{country}}' style="margin-bottom:30px"></canvas>
+        <table class='table striped'>
+            <thead>
+                <tr>
+                    <th>Users</th>
+                    <th>Courses</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{user.username}}</td>
+                    <td>{{course.title}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <script>
+            // Puedes ajustar este bloque de script según tus necesidades específicas
+            var data = {{{toJS accumulated}}};
+
+            Chart.defaults.global.legend.display = false;
+
+            new Chart(document.getElementById('orders{{country}}').getContext("2d"), {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(data),
+                    datasets: [{
+                        fillColor: 'blue',
+                        label: "Orders in time",
+                        backgroundColor: "rgba(27,161,226,0.2)",
+                        borderColor: "rgba(27,161,226,1)",
+                        borderWidth: 1,
+                        hoverBackgroundColor: "rgba(27,161,226,0.4)",
+                        hoverBorderColor: "rgba(27,161,226,1)",
+                        data: Object.keys(data).map(function (o) {
+                            return data[o].value;
+                        })
+                    }]
+                },
+                options: {
+                    animation: {
+                        duration: 0
+                    }
+                }
+            });
+        </script>
+        <div style='page-break-after: always;'></div>
+    {{/each}}
+  </body>
+</html>

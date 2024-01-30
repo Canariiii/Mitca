@@ -1,0 +1,35 @@
+.manage-users {
+    display: flex;
+    position: fixed;
+    left: 17.8%;
+    top: 40.11%;
+    width: 20.90%;
+    height: 19.67%;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    border-color: black;
+}
+
+.manage-courses {
+    display: flex;
+    position: fixed;
+    left: 61.25%;
+    top: 40.11%;
+    width: 20.90%;
+    height: 19.67%;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    border-color: black;
+}

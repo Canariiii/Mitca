@@ -1,0 +1,242 @@
+2024-01-15T19:04:38.079Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.11.0)
+2024-01-15T19:04:38.081Z - info: Searching for available extensions in /Users/josemiguelbravomendez/Documents/Mitca/LearnEdge/reports/
+2024-01-15T19:04:38.082Z - info: Extensions location cache not found, crawling directories
+2024-01-15T19:04:38.236Z - info: Found 35 extension(s)
+2024-01-15T19:04:38.276Z - info: Using extension base@4.0.0
+2024-01-15T19:04:38.279Z - info: Using extension child-templates@4.0.0
+2024-01-15T19:04:38.282Z - info: Using extension cli@4.0.2
+2024-01-15T19:04:38.282Z - info: Using extension components@4.0.0
+2024-01-15T19:04:38.283Z - info: Using extension data@4.0.0
+2024-01-15T19:04:38.283Z - info: Using extension express@4.0.1
+2024-01-15T19:04:38.392Z - info: Using extension freeze@4.0.0
+2024-01-15T19:04:38.393Z - info: Using extension fs-store@4.0.1
+2024-01-15T19:04:38.854Z - info: Using extension handlebars@4.0.1
+2024-01-15T19:04:38.856Z - info: Using extension import-export@4.0.2
+2024-01-15T19:04:38.865Z - info: Using extension jsrender@4.0.0
+2024-01-15T19:04:38.866Z - info: Using extension licensing@4.0.1
+2024-01-15T19:04:38.868Z - info: Using extension localization@4.0.1
+2024-01-15T19:04:38.869Z - info: Using extension npm@4.0.0
+2024-01-15T19:04:38.871Z - info: Using extension pdf-utils@4.0.2
+2024-01-15T19:04:38.872Z - info: Using extension reports@4.0.0
+2024-01-15T19:04:38.874Z - info: Using extension tags@4.0.1
+2024-01-15T19:04:38.875Z - info: Using extension text@4.0.0
+2024-01-15T19:04:38.876Z - info: Using extension version-control@4.0.0
+2024-01-15T19:04:38.885Z - info: Using extension assets@4.0.2
+2024-01-15T19:04:38.892Z - info: Using extension authorization@4.0.0
+2024-01-15T19:04:38.894Z - info: Using extension browser-client@4.0.0
+2024-01-15T19:04:38.895Z - info: Using extension chrome-pdf@4.0.0
+2024-01-15T19:04:38.896Z - info: Using extension docx@4.1.1
+2024-01-15T19:04:38.898Z - info: Using extension html-to-xlsx@4.0.1
+2024-01-15T19:04:39.039Z - info: html-to-xlsx detected chrome as available html engine
+2024-01-15T19:04:39.040Z - info: Using extension pptx@4.1.0
+2024-01-15T19:04:39.040Z - info: Using extension scheduling@4.0.0
+2024-01-15T19:04:39.056Z - info: Using extension scripts@4.0.0
+2024-01-15T19:04:39.057Z - info: Using extension static-pdf@4.0.0
+2024-01-15T19:04:39.057Z - info: Using extension studio@4.0.2
+2024-01-15T19:04:39.087Z - info: Using extension xlsx@4.0.2
+2024-01-15T19:04:39.088Z - info: Using extension public-templates@4.0.0
+2024-01-15T19:04:39.089Z - info: Using extension sample-template@4.0.0
+2024-01-15T19:04:39.089Z - info: Using extension studio-theme-dark@4.0.0
+2024-01-15T19:04:39.090Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-01-15T19:04:39.090Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-01-15T19:04:39.090Z - info: Using fs provider for template store.
+2024-01-15T19:04:39.092Z - info: fs store is persisting using fs for /Users/josemiguelbravomendez/Documents/Mitca/LearnEdge/reports/data
+2024-01-15T19:04:39.094Z - info: fs store is loading data
+2024-01-15T19:04:39.095Z - info: fs store is initialized successfully
+2024-01-15T19:04:39.100Z - info: Creating default express app.
+2024-01-15T19:04:39.111Z - info: jsreport server successfully started on http port: 5488
+2024-01-15T19:04:39.112Z - info: Verifying license key free
+2024-01-15T19:04:39.113Z - info: Using free license
+2024-01-15T19:04:39.130Z - info: Migrating templates chrome settings (waitForNetworkIddle -> waitForNetworkIdle)
+2024-01-15T19:04:39.131Z - info: Migration successful
+2024-01-15T19:04:39.168Z - info: Initializing worker threads
+2024-01-15T19:04:39.255Z - info: 2 worker threads initialized in 87ms
+2024-01-15T19:04:39.255Z - info: Starting temp files cleanup with 180000ms threshold
+2024-01-15T19:04:39.255Z - info: reporter initialized
+2024-01-15T19:06:40.909Z - error: Error when processing OData POST: /odata/assets Error: Entity name can not be empty
+    at module.exports (/Users/josemiguelbravomendez/Documents/Mitca/LearnEdge/reports/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at module.exports (/Users/josemiguelbravomendez/Documents/Mitca/LearnEdge/reports/node_modules/@jsreport/jsreport-core/lib/main/validateEntityName.js:26:11)
+    at Object.insert (/Users/josemiguelbravomendez/Documents/Mitca/LearnEdge/reports/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:123:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-15T19:34:35.975Z - info: Render request 1 queued for execution and waiting for available worker rootId=1768t1fmyvhlkur, id=1768t1fmyvhlkur
+2024-01-15T19:34:36.042Z - info: Starting rendering request 1 rootId=1768t1fmyvhlkur, id=1768t1fmyvhlkur
+2024-01-15T19:34:36.043Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=1768t1fmyvhlkur, id=1768t1fmyvhlkur
+2024-01-15T19:34:37.770Z - info: Rendering request 1 finished in 1799 ms rootId=1768t1fmyvhlkur, id=1768t1fmyvhlkur
+2024-01-15T19:35:45.840Z - info: Render request 2 queued for execution and waiting for available worker rootId=gyp7ve8sww3rn5q, id=gyp7ve8sww3rn5q
+2024-01-15T19:35:45.868Z - info: Starting rendering request 2 rootId=gyp7ve8sww3rn5q, id=gyp7ve8sww3rn5q
+2024-01-15T19:35:45.869Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gyp7ve8sww3rn5q, id=gyp7ve8sww3rn5q
+2024-01-15T19:35:49.823Z - info: pdf-utils is starting pdf processing rootId=gyp7ve8sww3rn5q, id=gyp7ve8sww3rn5q
+2024-01-15T19:35:49.833Z - info: Starting rendering (child) request rootId=gyp7ve8sww3rn5q, id=fwfe14ldge1pmil
+2024-01-15T19:35:49.833Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gyp7ve8sww3rn5q, id=fwfe14ldge1pmil
+2024-01-15T19:35:50.038Z - info: Rendering (child) request finished in 4131 ms rootId=gyp7ve8sww3rn5q, id=fwfe14ldge1pmil
+2024-01-15T19:35:50.039Z - info: pdf-utils pdf processing was finished rootId=gyp7ve8sww3rn5q, id=gyp7ve8sww3rn5q
+2024-01-15T19:35:50.039Z - info: Rendering request 2 finished in 4196 ms rootId=gyp7ve8sww3rn5q, id=gyp7ve8sww3rn5q
+2024-01-15T19:36:16.449Z - info: Render request 3 queued for execution and waiting for available worker rootId=yzo7db47rlkw2i4, id=yzo7db47rlkw2i4
+2024-01-15T19:36:16.464Z - info: Starting rendering request 3 rootId=yzo7db47rlkw2i4, id=yzo7db47rlkw2i4
+2024-01-15T19:36:16.464Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=yzo7db47rlkw2i4, id=yzo7db47rlkw2i4
+2024-01-15T19:36:16.570Z - info: Rendering request 3 finished in 122 ms rootId=yzo7db47rlkw2i4, id=yzo7db47rlkw2i4
+2024-01-15T19:38:12.381Z - info: Render request 4 queued for execution and waiting for available worker rootId=2hl4h0idstdjo0n, id=2hl4h0idstdjo0n
+2024-01-15T19:38:12.398Z - info: Starting rendering request 4 rootId=2hl4h0idstdjo0n, id=2hl4h0idstdjo0n
+2024-01-15T19:38:12.398Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=2hl4h0idstdjo0n, id=2hl4h0idstdjo0n
+2024-01-15T19:38:12.496Z - info: Rendering request 4 finished in 116 ms rootId=2hl4h0idstdjo0n, id=2hl4h0idstdjo0n
+2024-01-15T19:38:59.698Z - info: Render request 5 queued for execution and waiting for available worker rootId=gxjw8fqweditl8m, id=gxjw8fqweditl8m
+2024-01-15T19:38:59.707Z - info: Starting rendering request 5 rootId=gxjw8fqweditl8m, id=gxjw8fqweditl8m
+2024-01-15T19:38:59.708Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gxjw8fqweditl8m, id=gxjw8fqweditl8m
+2024-01-15T19:38:59.807Z - info: Rendering request 5 finished in 110 ms rootId=gxjw8fqweditl8m, id=gxjw8fqweditl8m
+2024-01-15T19:39:37.346Z - info: Render request 6 queued for execution and waiting for available worker rootId=038ctpe31ojuqmq, id=038ctpe31ojuqmq
+2024-01-15T19:39:37.356Z - info: Starting rendering request 6 rootId=038ctpe31ojuqmq, id=038ctpe31ojuqmq
+2024-01-15T19:39:37.357Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=038ctpe31ojuqmq, id=038ctpe31ojuqmq
+2024-01-15T19:39:37.455Z - info: Rendering request 6 finished in 108 ms rootId=038ctpe31ojuqmq, id=038ctpe31ojuqmq
+2024-01-15T19:39:58.425Z - info: Render request 7 queued for execution and waiting for available worker rootId=v776kgd47w40fxv, id=v776kgd47w40fxv
+2024-01-15T19:39:58.435Z - info: Starting rendering request 7 rootId=v776kgd47w40fxv, id=v776kgd47w40fxv
+2024-01-15T19:39:58.435Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=v776kgd47w40fxv, id=v776kgd47w40fxv
+2024-01-15T19:39:58.537Z - info: Rendering request 7 finished in 112 ms rootId=v776kgd47w40fxv, id=v776kgd47w40fxv
+2024-01-15T19:40:15.845Z - info: Render request 8 queued for execution and waiting for available worker rootId=7o60jjb61mmzyz0, id=7o60jjb61mmzyz0
+2024-01-15T19:40:15.858Z - info: Starting rendering request 8 rootId=7o60jjb61mmzyz0, id=7o60jjb61mmzyz0
+2024-01-15T19:40:15.859Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=7o60jjb61mmzyz0, id=7o60jjb61mmzyz0
+2024-01-15T19:40:15.954Z - info: Rendering request 8 finished in 110 ms rootId=7o60jjb61mmzyz0, id=7o60jjb61mmzyz0
+2024-01-15T19:41:51.862Z - info: Render request 9 queued for execution and waiting for available worker rootId=snmaug142p4p05r, id=snmaug142p4p05r
+2024-01-15T19:41:51.877Z - info: Starting rendering request 9 rootId=snmaug142p4p05r, id=snmaug142p4p05r
+2024-01-15T19:41:51.878Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=snmaug142p4p05r, id=snmaug142p4p05r
+2024-01-15T19:41:51.972Z - info: Rendering request 9 finished in 110 ms rootId=snmaug142p4p05r, id=snmaug142p4p05r
+2024-01-15T19:42:26.917Z - info: Render request 10 queued for execution and waiting for available worker rootId=si3le1m33tddose, id=si3le1m33tddose
+2024-01-15T19:42:26.932Z - info: Starting rendering request 10 rootId=si3le1m33tddose, id=si3le1m33tddose
+2024-01-15T19:42:26.932Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=si3le1m33tddose, id=si3le1m33tddose
+2024-01-15T19:42:27.038Z - info: Rendering request 10 finished in 121 ms rootId=si3le1m33tddose, id=si3le1m33tddose
+2024-01-15T19:44:22.715Z - info: Render request 11 queued for execution and waiting for available worker rootId=fzh8a34qllb5eq8, id=fzh8a34qllb5eq8
+2024-01-15T19:44:22.729Z - info: Starting rendering request 11 rootId=fzh8a34qllb5eq8, id=fzh8a34qllb5eq8
+2024-01-15T19:44:22.729Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=fzh8a34qllb5eq8, id=fzh8a34qllb5eq8
+2024-01-15T19:44:22.838Z - info: Rendering request 11 finished in 124 ms rootId=fzh8a34qllb5eq8, id=fzh8a34qllb5eq8
+2024-01-15T19:45:21.150Z - info: Render request 12 queued for execution and waiting for available worker rootId=1x59j2c4u7ald0c, id=1x59j2c4u7ald0c
+2024-01-15T19:45:21.166Z - info: Starting rendering request 12 rootId=1x59j2c4u7ald0c, id=1x59j2c4u7ald0c
+2024-01-15T19:45:21.166Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=1x59j2c4u7ald0c, id=1x59j2c4u7ald0c
+2024-01-15T19:45:21.268Z - info: Rendering request 12 finished in 118 ms rootId=1x59j2c4u7ald0c, id=1x59j2c4u7ald0c
+2024-01-15T19:47:13.131Z - info: Render request 13 queued for execution and waiting for available worker rootId=vs7nhdtap82wn5y, id=vs7nhdtap82wn5y
+2024-01-15T19:47:13.144Z - info: Starting rendering request 13 rootId=vs7nhdtap82wn5y, id=vs7nhdtap82wn5y
+2024-01-15T19:47:13.144Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=vs7nhdtap82wn5y, id=vs7nhdtap82wn5y
+2024-01-15T19:47:13.247Z - info: Rendering request 13 finished in 117 ms rootId=vs7nhdtap82wn5y, id=vs7nhdtap82wn5y
+2024-01-15T19:47:23.121Z - info: Render request 14 queued for execution and waiting for available worker rootId=le6kiaygcgrlawu, id=le6kiaygcgrlawu
+2024-01-15T19:47:23.147Z - info: Starting rendering request 14 rootId=le6kiaygcgrlawu, id=le6kiaygcgrlawu
+2024-01-15T19:47:23.147Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=le6kiaygcgrlawu, id=le6kiaygcgrlawu
+2024-01-15T19:47:23.235Z - info: Rendering request 14 finished in 114 ms rootId=le6kiaygcgrlawu, id=le6kiaygcgrlawu
+2024-01-15T19:48:09.181Z - info: Render request 15 queued for execution and waiting for available worker rootId=zu8pz2mu7ej1knh, id=zu8pz2mu7ej1knh
+2024-01-15T19:48:09.199Z - info: Starting rendering request 15 rootId=zu8pz2mu7ej1knh, id=zu8pz2mu7ej1knh
+2024-01-15T19:48:09.200Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=zu8pz2mu7ej1knh, id=zu8pz2mu7ej1knh
+2024-01-15T19:48:09.305Z - info: Rendering request 15 finished in 124 ms rootId=zu8pz2mu7ej1knh, id=zu8pz2mu7ej1knh
+2024-01-15T19:48:39.265Z - info: Render request 16 queued for execution and waiting for available worker rootId=yn15qtq5dw3lbje, id=yn15qtq5dw3lbje
+2024-01-15T19:48:39.279Z - info: Starting rendering request 16 rootId=yn15qtq5dw3lbje, id=yn15qtq5dw3lbje
+2024-01-15T19:48:39.279Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=yn15qtq5dw3lbje, id=yn15qtq5dw3lbje
+2024-01-15T19:48:39.373Z - info: Rendering request 16 finished in 107 ms rootId=yn15qtq5dw3lbje, id=yn15qtq5dw3lbje
+2024-01-15T19:49:47.864Z - info: Render request 17 queued for execution and waiting for available worker rootId=mevcoqopc7zify5, id=mevcoqopc7zify5
+2024-01-15T19:49:47.879Z - info: Starting rendering request 17 rootId=mevcoqopc7zify5, id=mevcoqopc7zify5
+2024-01-15T19:49:47.880Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=mevcoqopc7zify5, id=mevcoqopc7zify5
+2024-01-15T19:49:47.987Z - info: Rendering request 17 finished in 123 ms rootId=mevcoqopc7zify5, id=mevcoqopc7zify5
+2024-01-15T19:50:28.030Z - info: Render request 18 queued for execution and waiting for available worker rootId=q1m9r7bh1tdx0dv, id=q1m9r7bh1tdx0dv
+2024-01-15T19:50:28.044Z - info: Starting rendering request 18 rootId=q1m9r7bh1tdx0dv, id=q1m9r7bh1tdx0dv
+2024-01-15T19:50:28.045Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=q1m9r7bh1tdx0dv, id=q1m9r7bh1tdx0dv
+2024-01-15T19:50:28.143Z - info: Rendering request 18 finished in 113 ms rootId=q1m9r7bh1tdx0dv, id=q1m9r7bh1tdx0dv
+2024-01-15T19:52:22.512Z - info: Render request 19 queued for execution and waiting for available worker rootId=bye4atc0myogbmq, id=bye4atc0myogbmq
+2024-01-15T19:52:22.524Z - info: Starting rendering request 19 rootId=bye4atc0myogbmq, id=bye4atc0myogbmq
+2024-01-15T19:52:22.525Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=bye4atc0myogbmq, id=bye4atc0myogbmq
+2024-01-15T19:52:22.630Z - info: Rendering request 19 finished in 119 ms rootId=bye4atc0myogbmq, id=bye4atc0myogbmq
+2024-01-15T19:54:03.592Z - info: Render request 20 queued for execution and waiting for available worker rootId=vi11nqh4gkg8ben, id=vi11nqh4gkg8ben
+2024-01-15T19:54:03.605Z - info: Starting rendering request 20 rootId=vi11nqh4gkg8ben, id=vi11nqh4gkg8ben
+2024-01-15T19:54:03.605Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=vi11nqh4gkg8ben, id=vi11nqh4gkg8ben
+2024-01-15T19:54:03.705Z - info: Rendering request 20 finished in 113 ms rootId=vi11nqh4gkg8ben, id=vi11nqh4gkg8ben
+2024-01-15T19:55:22.945Z - info: Render request 21 queued for execution and waiting for available worker rootId=t5x46hizbdfyuj9, id=t5x46hizbdfyuj9
+2024-01-15T19:55:22.958Z - info: Starting rendering request 21 rootId=t5x46hizbdfyuj9, id=t5x46hizbdfyuj9
+2024-01-15T19:55:22.958Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=t5x46hizbdfyuj9, id=t5x46hizbdfyuj9
+2024-01-15T19:55:23.043Z - info: Rendering request 21 finished in 98 ms rootId=t5x46hizbdfyuj9, id=t5x46hizbdfyuj9
+2024-01-15T19:56:36.693Z - info: Render request 22 queued for execution and waiting for available worker rootId=ssief5mh58d0bzb, id=ssief5mh58d0bzb
+2024-01-15T19:56:36.704Z - info: Starting rendering request 22 rootId=ssief5mh58d0bzb, id=ssief5mh58d0bzb
+2024-01-15T19:56:36.705Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ssief5mh58d0bzb, id=ssief5mh58d0bzb
+2024-01-15T19:56:36.843Z - info: Rendering request 22 finished in 150 ms rootId=ssief5mh58d0bzb, id=ssief5mh58d0bzb
+2024-01-15T19:57:08.488Z - info: Render request 23 queued for execution and waiting for available worker rootId=ooc7fvcy84yzqbi, id=ooc7fvcy84yzqbi
+2024-01-15T19:57:08.499Z - info: Starting rendering request 23 rootId=ooc7fvcy84yzqbi, id=ooc7fvcy84yzqbi
+2024-01-15T19:57:08.499Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ooc7fvcy84yzqbi, id=ooc7fvcy84yzqbi
+2024-01-15T19:57:08.590Z - info: Rendering request 23 finished in 101 ms rootId=ooc7fvcy84yzqbi, id=ooc7fvcy84yzqbi
+2024-01-15T19:57:33.879Z - info: Render request 24 queued for execution and waiting for available worker rootId=783e1i0txscqvdt, id=783e1i0txscqvdt
+2024-01-15T19:57:33.892Z - info: Starting rendering request 24 rootId=783e1i0txscqvdt, id=783e1i0txscqvdt
+2024-01-15T19:57:33.892Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=783e1i0txscqvdt, id=783e1i0txscqvdt
+2024-01-15T19:57:33.981Z - info: Rendering request 24 finished in 103 ms rootId=783e1i0txscqvdt, id=783e1i0txscqvdt
+2024-01-15T19:58:17.192Z - info: Render request 25 queued for execution and waiting for available worker rootId=1hx0emumn74d91g, id=1hx0emumn74d91g
+2024-01-15T19:58:17.207Z - info: Starting rendering request 25 rootId=1hx0emumn74d91g, id=1hx0emumn74d91g
+2024-01-15T19:58:17.208Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=1hx0emumn74d91g, id=1hx0emumn74d91g
+2024-01-15T19:58:17.294Z - info: Rendering request 25 finished in 103 ms rootId=1hx0emumn74d91g, id=1hx0emumn74d91g
+2024-01-15T19:58:23.604Z - info: Render request 26 queued for execution and waiting for available worker rootId=kuh03ids0vtb7gn, id=kuh03ids0vtb7gn
+2024-01-15T19:58:23.614Z - info: Starting rendering request 26 rootId=kuh03ids0vtb7gn, id=kuh03ids0vtb7gn
+2024-01-15T19:58:23.615Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=kuh03ids0vtb7gn, id=kuh03ids0vtb7gn
+2024-01-15T19:58:23.710Z - info: Rendering request 26 finished in 106 ms rootId=kuh03ids0vtb7gn, id=kuh03ids0vtb7gn
+2024-01-15T19:59:18.762Z - info: Render request 27 queued for execution and waiting for available worker rootId=g9epkr4qdljfezh, id=g9epkr4qdljfezh
+2024-01-15T19:59:18.772Z - info: Starting rendering request 27 rootId=g9epkr4qdljfezh, id=g9epkr4qdljfezh
+2024-01-15T19:59:18.772Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=g9epkr4qdljfezh, id=g9epkr4qdljfezh
+2024-01-15T19:59:18.862Z - info: Rendering request 27 finished in 101 ms rootId=g9epkr4qdljfezh, id=g9epkr4qdljfezh
+2024-01-15T20:00:42.729Z - info: Render request 28 queued for execution and waiting for available worker rootId=x2znb8ibe45gpxi, id=x2znb8ibe45gpxi
+2024-01-15T20:00:42.744Z - info: Starting rendering request 28 rootId=x2znb8ibe45gpxi, id=x2znb8ibe45gpxi
+2024-01-15T20:00:42.745Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=x2znb8ibe45gpxi, id=x2znb8ibe45gpxi
+2024-01-15T20:00:42.850Z - info: Rendering request 28 finished in 122 ms rootId=x2znb8ibe45gpxi, id=x2znb8ibe45gpxi
+2024-01-15T20:01:03.404Z - info: Render request 29 queued for execution and waiting for available worker rootId=0tntyerri6i2cjl, id=0tntyerri6i2cjl
+2024-01-15T20:01:03.415Z - info: Starting rendering request 29 rootId=0tntyerri6i2cjl, id=0tntyerri6i2cjl
+2024-01-15T20:01:03.415Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=0tntyerri6i2cjl, id=0tntyerri6i2cjl
+2024-01-15T20:01:03.518Z - info: Rendering request 29 finished in 114 ms rootId=0tntyerri6i2cjl, id=0tntyerri6i2cjl
+2024-01-15T20:01:41.548Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.11.0)
+2024-01-15T20:01:41.550Z - info: Searching for available extensions in /Users/josemiguelbravomendez/Documents/Mitca/LearnEdge/reports/
+2024-01-15T20:01:41.551Z - info: Extensions location cache /var/folders/tp/6hccbwhd41s4hkmxw_2wkz640000gn/T/jsreport/core/locations.json contains older information, crawling
+2024-01-15T20:01:41.794Z - info: Found 35 extension(s)
+2024-01-15T20:01:41.829Z - info: Using extension base@4.0.0
+2024-01-15T20:01:41.832Z - info: Using extension child-templates@4.0.0
+2024-01-15T20:01:41.835Z - info: Using extension cli@4.0.2
+2024-01-15T20:01:41.836Z - info: Using extension components@4.0.0
+2024-01-15T20:01:41.836Z - info: Using extension data@4.0.0
+2024-01-15T20:01:41.837Z - info: Using extension express@4.0.1
+2024-01-15T20:01:41.942Z - info: Using extension freeze@4.0.0
+2024-01-15T20:01:41.942Z - info: Using extension fs-store@4.0.1
+2024-01-15T20:01:42.005Z - info: Using extension handlebars@4.0.1
+2024-01-15T20:01:42.005Z - info: Using extension import-export@4.0.2
+2024-01-15T20:01:42.010Z - info: Using extension jsrender@4.0.0
+2024-01-15T20:01:42.010Z - info: Using extension licensing@4.0.1
+2024-01-15T20:01:42.014Z - info: Using extension localization@4.0.1
+2024-01-15T20:01:42.015Z - info: Using extension npm@4.0.0
+2024-01-15T20:01:42.016Z - info: Using extension pdf-utils@4.0.2
+2024-01-15T20:01:42.017Z - info: Using extension reports@4.0.0
+2024-01-15T20:01:42.018Z - info: Using extension tags@4.0.1
+2024-01-15T20:01:42.019Z - info: Using extension text@4.0.0
+2024-01-15T20:01:42.020Z - info: Using extension version-control@4.0.0
+2024-01-15T20:01:42.026Z - info: Using extension assets@4.0.2
+2024-01-15T20:01:42.030Z - info: Using extension authorization@4.0.0
+2024-01-15T20:01:42.031Z - info: Using extension browser-client@4.0.0
+2024-01-15T20:01:42.032Z - info: Using extension chrome-pdf@4.0.0
+2024-01-15T20:01:42.034Z - info: Using extension docx@4.1.1
+2024-01-15T20:01:42.035Z - info: Using extension html-to-xlsx@4.0.1
+2024-01-15T20:01:42.169Z - info: html-to-xlsx detected chrome as available html engine
+2024-01-15T20:01:42.169Z - info: Using extension pptx@4.1.0
+2024-01-15T20:01:42.170Z - info: Using extension scheduling@4.0.0
+2024-01-15T20:01:42.187Z - info: Using extension scripts@4.0.0
+2024-01-15T20:01:42.187Z - info: Using extension static-pdf@4.0.0
+2024-01-15T20:01:42.188Z - info: Using extension studio@4.0.2
+2024-01-15T20:01:42.219Z - info: Using extension xlsx@4.0.2
+2024-01-15T20:01:42.220Z - info: Using extension public-templates@4.0.0
+2024-01-15T20:01:42.220Z - info: Using extension sample-template@4.0.0
+2024-01-15T20:01:42.221Z - info: Using extension studio-theme-dark@4.0.0
+2024-01-15T20:01:42.222Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-01-15T20:01:42.222Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-01-15T20:01:42.222Z - info: Using fs provider for template store.
+2024-01-15T20:01:42.224Z - info: fs store is persisting using fs for /Users/josemiguelbravomendez/Documents/Mitca/LearnEdge/reports/data
+2024-01-15T20:01:42.225Z - info: fs store is loading data
+2024-01-15T20:01:42.238Z - info: fs store is initialized successfully
+2024-01-15T20:01:42.245Z - info: Creating default express app.
+2024-01-15T20:01:42.257Z - info: jsreport server successfully started on http port: 5488
+2024-01-15T20:01:42.261Z - info: Verifying license key free
+2024-01-15T20:01:42.261Z - info: Using free license
+2024-01-15T20:01:42.263Z - info: Initializing worker threads
+2024-01-15T20:01:42.346Z - info: 2 worker threads initialized in 83ms
+2024-01-15T20:01:42.346Z - info: Starting temp files cleanup with 180000ms threshold
+2024-01-15T20:01:42.346Z - info: reporter initialized
+2024-01-15T20:01:49.713Z - info: Render request 1 queued for execution and waiting for available worker rootId=i25au4l44lc72zr, id=i25au4l44lc72zr
+2024-01-15T20:01:49.766Z - info: Starting rendering request 1 rootId=i25au4l44lc72zr, id=i25au4l44lc72zr
+2024-01-15T20:01:49.766Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=i25au4l44lc72zr, id=i25au4l44lc72zr
+2024-01-15T20:01:51.017Z - info: Rendering request 1 finished in 1305 ms rootId=i25au4l44lc72zr, id=i25au4l44lc72zr
+2024-01-15T20:02:17.044Z - info: Render request 2 queued for execution and waiting for available worker rootId=uija51svij3rgzz, id=uija51svij3rgzz
+2024-01-15T20:02:17.087Z - info: Starting rendering request 2 rootId=uija51svij3rgzz, id=uija51svij3rgzz
+2024-01-15T20:02:17.088Z - info: Rendering template { name: mitca, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=uija51svij3rgzz, id=uija51svij3rgzz
+2024-01-15T20:02:18.038Z - info: Rendering request 2 finished in 993 ms rootId=uija51svij3rgzz, id=uija51svij3rgzz

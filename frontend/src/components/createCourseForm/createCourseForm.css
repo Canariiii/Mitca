@@ -1,0 +1,194 @@
+.create-course-form {
+    display: flex;
+    position: absolute;
+}
+
+.create-course-form h1:nth-of-type(1) {
+    position: fixed;
+    left: 13.5%;
+    top: 17.33%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.create-course-line {
+    position: fixed;
+    top: 26.5%;
+    left: 10%;
+    width: 20.17%;
+    border: 1px solid black;
+}
+
+.create-course-form-container p:nth-of-type(1) {
+    position: fixed;
+    top: 31.56%;
+    left: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.create-course-form-container p:nth-of-type(2) {
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    left: 10%;
+    top: 46.67%;
+}
+
+.create-course-form-container p:nth-of-type(3) {
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    left: 73.75%;
+    top: 31.83%;
+}
+
+.create-course-form-container input:nth-of-type(1) {
+    position: fixed;
+    top: 40.99%;
+    left: 10%;
+    width: 28.26%;
+    height: 5.67%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+}
+
+.create-course-form-container input:nth-of-type(2) {
+    position: fixed;
+    top: 56%;
+    left: 10%;
+    width: 46.3%;
+    height: 14.67%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+}
+
+.create-course-form-container input:nth-of-type(3) {
+    position: fixed;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.filelabel {
+    box-sizing: border-box;
+    position: fixed;
+    width: 30%;
+    height: 5%;
+    left: 20%;
+    top: 75%;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fileLabel span {
+    font-size: 14px;
+}
+
+.fileLabel:hover {
+    background-color: #f0f0f0;
+}
+
+.create-course-form-container button {
+    position: fixed;
+    left: 48.40%;
+    top: 85.89%;
+    width: 17.50%;
+    height: 7.22%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.create-course-form-container img {
+    position: fixed;
+    height: 44%;
+    border-radius: 100%;
+    top: 43.22%;
+    left: 70%;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+}
+
+@media (max-width: 430px) and (max-height: 932px) {
+.create-course-form h1:nth-of-type(1) {
+    font-size: 25px;
+    top: 20%;
+    left: 10%;
+}
+.create-course-line {
+    left: 10%;
+    width: 50vw;
+}
+
+.create-course-form-container p:nth-of-type(1) {
+    top: 30%;
+    left: 10%;
+    font-size: 25px;
+}
+.create-course-form-container input:nth-of-type(1) {
+    height: 10vw;
+    top: 37.5%;
+    width: 50vw;
+}
+
+.create-course-form-container p:nth-of-type(2) {
+    left: 10%;
+    top: 45%;
+    font-size: 25px;
+}
+
+.create-course-form-container input:nth-of-type(2) {
+    left: 10%;
+    top: 50.5%;
+    width: 80vw;
+}
+
+.filelabel {
+    left: 10%;
+    top: 70%;
+}
+.create-course-form-container p:nth-of-type(3) {
+    left: 45%;
+    top: 68.75%;
+    font-size: 25px;
+}
+.create-course-form-container img {
+    min-width: 120px;
+    max-width: 120px;
+    min-height: 120px;
+    max-height: 120px;
+    left: 50%;
+    top: 75%;
+}
+.create-course-form-container button {
+    left: 10%;
+    width: 40vw;
+}
+
+} 
